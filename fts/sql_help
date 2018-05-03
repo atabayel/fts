@@ -1,0 +1,35 @@
+Available help:
+  ABORT                            ALTER TYPE                       CREATE SCHEMA                    DROP LANGUAGE                    MOVE
+  ALTER AGGREGATE                  ALTER USER                       CREATE SEQUENCE                  DROP MATERIALIZED VIEW           NOTIFY
+  ALTER COLLATION                  ALTER USER MAPPING               CREATE SERVER                    DROP OPERATOR                    PREPARE
+  ALTER CONVERSION                 ALTER VIEW                       CREATE TABLE                     DROP OPERATOR CLASS              PREPARE TRANSACTION
+  ALTER DATABASE                   ANALYZE                          CREATE TABLE AS                  DROP OPERATOR FAMILY             REASSIGN OWNED
+  ALTER DEFAULT PRIVILEGES         BEGIN                            CREATE TABLESPACE                DROP OWNED                       REFRESH MATERIALIZED VIEW
+  ALTER DOMAIN                     CHECKPOINT                       CREATE TEXT SEARCH CONFIGURATION DROP POLICY                      REINDEX
+  ALTER EVENT TRIGGER              CLOSE                            CREATE TEXT SEARCH DICTIONARY    DROP ROLE                        RELEASE SAVEPOINT
+  ALTER EXTENSION                  CLUSTER                          CREATE TEXT SEARCH PARSER        DROP RULE                        RESET
+  ALTER FOREIGN DATA WRAPPER       COMMENT                          CREATE TEXT SEARCH TEMPLATE      DROP SCHEMA                      REVOKE
+  ALTER FOREIGN TABLE              COMMIT                           CREATE TRANSFORM                 DROP SEQUENCE                    ROLLBACK
+  ALTER FUNCTION                   COMMIT PREPARED                  CREATE TRIGGER                   DROP SERVER                      ROLLBACK PREPARED
+  ALTER GROUP                      COPY                             CREATE TYPE                      DROP TABLE                       ROLLBACK TO SAVEPOINT
+  ALTER INDEX                      CREATE AGGREGATE                 CREATE USER                      DROP TABLESPACE                  SAVEPOINT
+  ALTER LANGUAGE                   CREATE CAST                      CREATE USER MAPPING              DROP TEXT SEARCH CONFIGURATION   SECURITY LABEL
+  ALTER LARGE OBJECT               CREATE COLLATION                 CREATE VIEW                      DROP TEXT SEARCH DICTIONARY      SELECT
+  ALTER MATERIALIZED VIEW          CREATE CONVERSION                DEALLOCATE                       DROP TEXT SEARCH PARSER          SELECT INTO
+  ALTER OPERATOR                   CREATE DATABASE                  DECLARE                          DROP TEXT SEARCH TEMPLATE        SET
+  ALTER OPERATOR CLASS             CREATE DOMAIN                    DELETE                           DROP TRANSFORM                   SET CONSTRAINTS
+  ALTER OPERATOR FAMILY            CREATE EVENT TRIGGER             DISCARD                          DROP TRIGGER                     SET ROLE
+  ALTER POLICY                     CREATE EXTENSION                 DO                               DROP TYPE                        SET SESSION AUTHORIZATION
+  ALTER ROLE                       CREATE FOREIGN DATA WRAPPER      DROP AGGREGATE                   DROP USER                        SET TRANSACTION
+  ALTER RULE                       CREATE FOREIGN TABLE             DROP CAST                        DROP USER MAPPING                SHOW
+  ALTER SCHEMA                     CREATE FUNCTION                  DROP COLLATION                   DROP VIEW                        START TRANSACTION
+  ALTER SEQUENCE                   CREATE GROUP                     DROP CONVERSION                  END                              TABLE
+  ALTER SERVER                     CREATE INDEX                     DROP DATABASE                    EXECUTE                          TRUNCATE
+  ALTER SYSTEM                     CREATE LANGUAGE                  DROP DOMAIN                      EXPLAIN                          UNLISTEN
+  ALTER TABLE                      CREATE MATERIALIZED VIEW         DROP EVENT TRIGGER               FETCH                            UPDATE
+  ALTER TABLESPACE                 CREATE OPERATOR                  DROP EXTENSION                   GRANT                            VACUUM
+  ALTER TEXT SEARCH CONFIGURATION  CREATE OPERATOR CLASS            DROP FOREIGN DATA WRAPPER        IMPORT FOREIGN SCHEMA            VALUES
+  ALTER TEXT SEARCH DICTIONARY     CREATE OPERATOR FAMILY           DROP FOREIGN TABLE               INSERT                           WITH
+  ALTER TEXT SEARCH PARSER         CREATE POLICY                    DROP FUNCTION                    LISTEN                           
+  ALTER TEXT SEARCH TEMPLATE       CREATE ROLE                      DROP GROUP                       LOAD                             
+  ALTER TRIGGER                    CREATE RULE                      DROP INDEX                       LOCK                             

@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1> Список групп </h1>
+        <p><a href="">Создать новую группу</a></p>
+        <table border="1">
+            {% for group in all_groups %}
+            <tr>
+                <td>{{ group.code }}</td>
+                <td>{{ group.name }}</td>
+                <td>{{ group.comment }}</td>
+                <td><a href="">Редактировать</a></td>
+                <td><a href="">Удалить</a></td>
+            </tr>
+            {% endfor  %}
+        </table>
+    </body>
+</html>

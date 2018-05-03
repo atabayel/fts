@@ -1,0 +1,44 @@
+<html>
+    <head>
+         <title> {{client.surname}} {{client.name}}}</title>
+    </head>
+    <body>
+        <h2> ({{client.surname}} {{client.name}})</h2>
+        <form action="{% url 'registration:save' client.id%}" method="POST">
+            {% csrf_token %}
+	    <input type="hidden" name="id" value"{{client.id}}"/>
+            <table>
+		<tr>
+                    <td> ID записи </td>
+                    <td> <input type="text" name="rid" value="{{client.id}}"/> <td>
+                <tr>
+
+                <tr>
+                    <td> ID клиента </td>
+                    <td> <input type="text" name="cid" value="{{client.c_id}}"/> <td>
+                <tr>
+                <tr>
+                    <td>Имя</td>
+                    <td><input type="text" name="name" value="{{client.name}}"/><td>
+                <tr>
+                <tr>
+                    <td>Фамилия</td>
+                    <td><input type="text" name="surname" value="{{client.surname}}"/><td>
+                <tr>
+                <tr>
+                    <td>Почта</td>
+                    <td><input type="text" name="email" value="{{client.email}}"/><td>
+                <tr>
+                <tr>
+                    <td>Номер телефона</td>
+                    <td><input type="text" name="phone" value="{{client.phone}}"/><td>
+                <tr>
+                <tr>
+                    <td>Дата регистрации</td>
+                    <td><input type="text" name="reg_date" value="{{client.reg_date}}"/><td>
+                <tr>
+            </table>
+            <input type="submit" value="Готово" />
+        </form>
+    </body>
+</html>

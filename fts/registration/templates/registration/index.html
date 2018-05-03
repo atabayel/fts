@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1> Список товаров </h1>
+        <p><a href="{% url 'registration:new' %}">Создать новый</a></p>
+        <table border="1">
+            {% for client in all_clients %}
+            <tr>
+                <td>{{ client.c_id }}</td>
+                <td>{{ client.surname }}</td>
+                <td>{{ client.name }}</td>
+                <td>{{ client.phone }}</td>
+                <td><a href="{% url 'registration:edit' client.id %}">Редактировать</a></td>
+                <td><a href="{% url 'registration:delete' client.id %}">Удалить</a></td>
+            </tr>
+            {% endfor  %}
+        </table>
+    </body>
+</html>
